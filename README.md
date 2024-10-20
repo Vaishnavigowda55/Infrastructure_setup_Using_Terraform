@@ -1,2 +1,1 @@
-# Terraform
-##  "Automating AWS VPC and EC2 Instance Setup Using Terraform"
+#  "Automating AWS VPC and EC2 Instance Setup Using Terraform"
