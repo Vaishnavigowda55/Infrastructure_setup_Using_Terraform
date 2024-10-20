@@ -1,5 +1,7 @@
-#  "Automating AWS VPC and EC2 Instance Setup Using Terraform"
-
+# "Automating AWS VPC and EC2 Instance Setup Using Terraform"
+This Terraform configuration also deploys an "Nginx web server" on the EC2 instance. The server is automatically installed and started when the instance is created.<br>
+The Nginx server is installed using a bash script (user_data), which runs during the instance launch.<br>
+Once deployed, you can access the Nginx server via the EC2 instance's public IP or URL provided in the Terraform output.
 
 # Prerequisites
 ## Before using the Terraform configuration, ensure the following:
